@@ -1,0 +1,42 @@
+
+html, body{
+  margin:0;
+  background: #E5EDF0;
+}
+header{
+  padding:1px;
+  width: 100%;
+  display: inline-flex;
+  background-color: #95A6AE;
+}
+header h1{
+  margin:15px 0 15px 15px;
+  font-weight: 800;
+  text-shadow: 1px 1px 1px black;
+  cursor:pointer;
+  display: block ;
+  font-size: 25px; 
+  font-family: 'black-mirror';
+}
+header button{
+  cursor:pointer;
+position:absolute;
+right:25px;
+top:20px;
+border:none;
+background:none;
+color:#000;
+font-size: 24px;
+}
+section.a{
+  margin: 30px 20px 30px 20px;
+  background: #000;
+  padding: 20px 0 20px 0;
+}
+section.a p{
+  font-weight: 300;
+  color:#fff;
+  font-family: 'black-mirror';
+  font-size: 15px;
+  margin: 0 20px 0 20px;
+}
