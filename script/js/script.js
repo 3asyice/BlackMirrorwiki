@@ -1,5 +1,5 @@
 const links = [
-
+{ url: "../../script/season-1/the-national-anthem.html", text: "Hino Nacional" }
     ];
 function showSuggestions(value) {
 const suggestions = document.getElementById('suggestions');
