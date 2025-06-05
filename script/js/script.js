@@ -1,8 +1,5 @@
 const links = [
-{ url: "https://www.big-loser.site", text: "Big Loser Site" },
-{ url: "https://www.big-loser.site/Caso/004", text: "Archived Media" },
-{ url: "https://www.big-loser.site/Caso/001", text: "Início de Tudo" },
-{ url: "https://www.big-loser.site/Caso/005", text: "Camila Dalcol" }
+
     ];
 function showSuggestions(value) {
 const suggestions = document.getElementById('suggestions');
