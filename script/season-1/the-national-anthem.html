@@ -2,13 +2,125 @@
 <html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+  <meta http-equiv="Content-Type" content="text/html, charset=UTF-8"/>
+  <meta http-equiv="Content-Language" content="pt-BR"/>
+  <meta name="viewport" content="width=device-width, inicial-scale=1"/>
+  <meta name="description" content="A wikipedia da série de TV Black Mirror"/>
+  <title>Black Mirror.wiki</title>
+<link rel="stylesheet" href="../../script/css/style.css">
 </head>
+<style type="text/css" media="all">
+@font-face {
+  font-family: black-mirror;
+  src: url('../../assets/font/BeVietnam-Bold.ttf') format('woff2');
+  font-display: swap;
+}
 
+@font-face {
+  font-family: nautic;
+  src: url('../../assets/font/Nautilus.otf') format('woff2');
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+  user-select: none;
+  font-family: 'black-mirror';
+}
+section.a img {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+section.a div.a{
+background:#515151;
+margin:0 20px 0 20px;
+padding: 10px 0 10px 0;
+}
+section.a div.table{
+  margin:10px;
+  background: url('../../assets/img/home/black-sky.jpeg');
+}
+section.a div.table p{
+  font-style: italic;
+}
+
+/* Input de Pesquisa */
+#linkInput {
+width: 300px;
+padding: 6px;
+font-weight: 100;
+font-size: 16px;
+border: 2px solid #FFF500;
+border-radius: 4px;
+}
+input#linkInput:focus {
+outline: none;
+}
+#suggestions {
+border: none;
+display: none;
+position: absolute;
+background: #00000096;
+z-index: 1000;
+width: 100%;
+text-justify: center;
+max-height: 150px;
+overflow-y: auto;
+text-align: center;
+}
+.suggestion-item {
+padding: 10px;
+cursor: pointer;
+text-decoration: none;
+color: #fff;
+text-shadow: 1px 1px 1px #000;
+        }
+.suggestion-item:hover {
+background-color: #f0f0f0;
+}
+section.a div.a h2{
+  color:;
+}
+</style>
 <body>
-  
+<header>
+<h1>BLACK MIRROR.wiki</h1>
+<button>☰</button>
+</header>
+<center>
+  <input style="margin-top: 30px;" type="text" id="linkInput" placeholder="Pesquisar Black Mirror..." onkeyup="showSuggestions(this.value)">
+  <div id="suggestions"></div>
+</center>
+<section class="a">
+
+<center>
+  <img width="95%" src="../../assets/img/gif/black-mirror.gif" alt="black mirror gif">
+</center>
+
+</section>
+
+<section class="a">
+
+<div class="a">
+  <h2>The National Anthem</h2>
+<p>O universo de Black Mirror como você nunca imaginou antes. Se acomode, prepare um café e veja você mesmo.</p>
+</div>
+
+<div class="table">
+<p style="font-style: normal;">
+Curiosidade: o programa de TV Black Mirror foi inspirado em The Twilight Zone (1959)</p>
+<center>
+<img width="95%" src="../../assets/img/creator/charlie-brooke.jpg" alt="charlie brooke">
+</center>
+<p>Charlie Brooker, criador de Black Mirror.</p>
+</div>
+
+</section>
+
+
+<script async crossorigin="anonymous" src="../../script/js/script.js"></script>
 </body>
 
 </html>
