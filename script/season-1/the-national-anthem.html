@@ -7,6 +7,10 @@
   <meta name="viewport" content="width=device-width, inicial-scale=1"/>
   <meta name="description" content="A wikipedia da série de TV Black Mirror"/>
   <title>Black Mirror.wiki</title>
+<meta name="author" content="Guilherme Carvalho" />
+<meta name="keywords" content="TV, Series, Tech, Mind-blowing, Screen, Mirror, Episodes, Black Mirror, Biography" />
+<meta name="robots" content="index, follow" />
+<link rel="shortcut icon" href="../../assets/img/icon/icon.jpeg" type="image/" />
 <link rel="stylesheet" href="../../script/css/style.css">
 </head>
 <style type="text/css" media="all">
@@ -38,12 +42,17 @@ background:#515151;
 margin:0 20px 0 20px;
 padding: 10px 0 10px 0;
 }
+section.a div.table h2{
+  color:#fff;
+  margin:10px 20px 10px 20px;
+  font-size: 24px;
+}
 section.a div.table{
   margin:10px;
   background: url('../../assets/img/home/black-sky.jpeg');
 }
 section.a div.table p{
-  font-style: italic;
+  font-style: normal;
 }
 
 /* Input de Pesquisa */
@@ -80,13 +89,14 @@ text-shadow: 1px 1px 1px #000;
 .suggestion-item:hover {
 background-color: #f0f0f0;
 }
-section.a div.a h2{
-  color:;
+section.a div.a h2, label{
+  color:#fff;
+  margin:15px 20px 15px 20px;
 }
 </style>
 <body>
 <header>
-<h1>BLACK MIRROR.wiki</h1>
+<h1 onclick="location.href='../../script/home.html'"><img width="50%" src="../../assets/img/icon/logo.png" alt="logo"></h1>
 <button>☰</button>
 </header>
 <center>
@@ -105,16 +115,57 @@ section.a div.a h2{
 
 <div class="a">
   <h2>The National Anthem</h2>
-<p>O universo de Black Mirror como você nunca imaginou antes. Se acomode, prepare um café e veja você mesmo.</p>
+<script>
+function redirecionar() {
+  var select = document.getElementById("opcoes");
+  var url = select.value; // Obtém o valor da opção selecionada
+  if (url) {
+    window.location.href = url; // Redireciona para a URL
+  }
+}
+</script>
+ <label for="opcoes">Episódio:</label>
+ <select onchange="redirecionar()" id="opcoes" name="ep">
+   <option selected value="s1e1">Season 1 Episode 1</option>
+   <option value="https://big-loser.site">Season 1 Episode 2</option>
+   <option value="s1e3">Season 1 Episode 3</option>
+   <option value="s2e1">Season 2 Episode 1</option></select>
 </div>
 
 <div class="table">
 <p style="font-style: normal;">
-Curiosidade: o programa de TV Black Mirror foi inspirado em The Twilight Zone (1959)</p>
+O episódio de estreia de Black Mirror narra o sequestro da Princesa Susannah, com o sequestrador exigindo que o Primeiro-Ministro Michael Callow (<span style="text-decoration: underline; text-decoration-color: #f00;">Rory Kinnear</span>) 
+tenha relações sexuais com um porco em rede nacional para o seu retorno. 
+</p>
 <center>
-<img width="95%" src="../../assets/img/creator/charlie-brooke.jpg" alt="charlie brooke">
+<img width="95%" src="../../assets/img/gif/princesa-susannah.gif" alt="princesa susannah">
 </center>
-<p>Charlie Brooker, criador de Black Mirror.</p>
+<p>
+O evento se torna um espetáculo midiático e um fenômeno nas redes sociais, com a opinião pública oscilando entre o nojo e a morbidez. Apesar das tentativas de falsificar a filmagem e de uma operação de resgate falha, Callow é forçado a cumprir a exigência. Revela-se que o sequestrador, um artista famoso, libertou a princesa antes da transmissão e cometeu suicídio, fatos que são ocultados do público e do próprio Callow. Um ano depois, a popularidade de Callow está em alta, mas seu casamento está irremediavelmente abalado. Os temas centrais incluem a mídia de massa, o monitoramento de redes sociais, a sociedade do espetáculo, a humilhação pública e a subversão do processo político pela busca insaciável do público por escândalos.</p>
+<center>
+<img width="95%" src="../../assets/img/cover/the-national-anthem-cover.jpeg" alt="charlie brooke">
+</center>
+<h2>Detalhes Despercebidos e Easter Eggs:</h2>
+<ul type="none">
+<li>
+<p>
+Este episódio é considerado o ponto de partida do universo Black Mirror, sem referências a episódios futuros, mas sendo amplamente referenciado por outros.</p></li>
+<br>
+<li>
+<p>Referências posteriores a Michael Callow, como seu divórcio, aparecem em "Be Right Back", "Nosedive" e "O Momento Waldo".</p>
+</li>
+</ul>
+<center>
+<img width="95%" src="../../assets/img/season-1/michael-callow-divorce.jpg" alt="michael callow divorce">
+</center>
+<ul type="none">
+<li>
+<p>Na sétima temporada, é mencionado que o ex-Primeiro-Ministro Michael Callow está entrando na Escola de Veterinária de Celebridades..</p>
+</li>
+</ul>
+<center>
+  <img width="95%" src="../../assets/img/season-1/michael-callow.jpg" alt="michael callow divorce">
+</center>
 </div>
 
 </section>
