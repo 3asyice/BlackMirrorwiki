@@ -1,5 +1,7 @@
 const links = [
-{ url: "../script/season-1/the-national-anthem.html", text: "Hino Nacional" }
+{ url: "/script/season-1/the-national-anthem.html", text: "Hino Nacional" },
+{ url: "/script/season-1/15-million-merits.html", text: "15 Milhões de Méritos" },
+{ url: "/script/season-1/the-entire-history-of-you.html", text: "Toda A Sua História" }
     ];
 function showSuggestions(value) {
 const suggestions = document.getElementById('suggestions');
