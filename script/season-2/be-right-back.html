@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html, charset=UTF-8"/>
+  <meta http-equiv="Content-Language" content="pt-BR"/>
+  <meta name="viewport" content="width=device-width, inicial-scale=1"/>
+  <meta name="description" content="A wikipedia da série de TV Black Mirror"/>
+  <title>Black Mirror.wiki</title>
+<meta name="author" content="Guilherme Carvalho" />
+<meta name="keywords" content="TV, Series, Tech, Mind-blowing, Screen, Mirror, Episodes, Black Mirror, Biography" />
+<meta name="robots" content="index, follow" />
+<link rel="shortcut icon" href="../../assets/img/icon/icon.jpeg" type="image/" />
+<link rel="stylesheet" href="../../script/css/style.css">
+</head>
+<style type="text/css" media="all">
+@font-face {
+  font-family: black-mirror;
+  src: url('../../assets/font/BeVietnam-Bold.ttf') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: nautic;
+  src: url('../../assets/font/Nautilus.otf') format('woff2');
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'black-mirror';
+}
+section.a img {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+section.a div.a{
+background:#515151;
+margin:0 20px 0 20px;
+padding: 10px 0 10px 0;
+}
+section.a div.b{
+  background:#A30000;
+}
+section.a div.table h2{
+  color:#fff;
+  margin:10px 20px 10px 20px;
+  font-size: 24px;
+}
+section.a div.table{
+  margin:10px;
+  background: url('../../assets/img/home/black-sky.jpeg');
+}
+section.a div.table p{
+  font-style: normal;
+  margin-bottom: 20px;
+}
+
+/* Input de Pesquisa */
+#linkInput {
+width: 300px;
+padding: 6px;
+font-weight: 100;
+font-size: 16px;
+border: 2px solid #FFF500;
+border-radius: 4px;
+}
+input#linkInput:focus {
+outline: none;
+}
+#suggestions {
+border: none;
+display: none;
+position: absolute;
+background: #00000096;
+z-index: 1000;
+width: 100%;
+text-justify: center;
+max-height: 150px;
+overflow-y: auto;
+text-align: center;
+}
+.suggestion-item {
+padding: 10px;
+cursor: pointer;
+text-decoration: none;
+color: #fff;
+text-shadow: 1px 1px 1px #000;
+        }
+.suggestion-item:hover {
+background-color: #f0f0f0;
+}
+section.a div.a h2, label{
+  color:#fff;
+  margin:15px 20px 15px 20px;
+}
+section.a div.table div.d h3{
+  color:#fff;
+}
+</style>
+<body>
+<header>
+<h1 onclick="location.href='../../script/home.html'"><img width="50%" src="../../assets/img/gif/bm.gif" alt="logo"></h1>
+<button>☰</button>
+</header>
+<center>
+  <input style="margin-top: 30px;" type="text" id="linkInput" placeholder="Pesquisar Black Mirror..." onkeyup="showSuggestions(this.value)">
+  <div id="suggestions"></div>
+</center>
+<section class="a">
+<center>
+<img width="100%" src="../../assets/img/gif/Ash-n-Martha.gif">
+</center>
+</section>
+
+<section class="a">
+<div class="a">
+  <h2>Be Right Back</h2>
+<script>
+function redirecionar() {
+  var select = document.getElementById("opcoes");
+  var url = select.value; 
+  if (url) {
+    window.location.href = url;
+  }
+}
+</script>
+ <label for="opcoes">Episódio:</label>
+<center>
+ <select onchange="redirecionar()" id="opcoes" name="ep">
+   <option value="../../script/season-1/the-national-anthem.html">S1 Ep1 Hino Nacional</option>
+   <option value="../../script/season-1/15-million-merits.html">S1 Ep2 15 Milhões de Méritos</option>
+   <option value="s1e3">S1 Ep3 Toda A Sua História</option>
+   <option selected value="s2e1">S2 Ep1 Volto Já</option>
+   <option value="s2e1">S2 Ep2</option>
+   <option value="s2e1">S2 Ep3</option>
+   
+ </select>
+</center>
+</div>
+
+<div class="table">
+<p style="word-break: break-all;">#EleNuncaSaiu</p>
+<p>
+Após a morte de Ash (Domhnall Gleeson), sua namorada grávida, Martha (Hayley Atwell), experimenta um serviço que usa os dados online de Ash para criar uma imitação de IA. Ela interage com a IA por mensagens e chamadas de vídeo. Uma versão física em androide de Ash é perturbadora para Martha.
+</p>
+<center>
+<img width="95%" src="../../assets/img/season-2/be-right-back.jpeg" alt="Ash IA message">
+</center>
+<p>
+Anos depois, sua filha leva um bolo para o androide Ash, que é guardado no sótão e visitado apenas nos fins de semana.
+</p>
+<center>
+<img width="95%" src="../../assets/img/cover/be-right-back.jpeg" alt="aesthetic cover">
+</center>
+<h2>Detalhes Despercebidos e Easter Eggs:</h2>
+<ul type="none">
+<li>
+<p>
+O episódio acontece um ano após "Hino Nacional”, com uma manchete de TV mencionando "Geraint Fitch absolvido de irregularidades após briga com paparazzi”, que também aparece em "O Momento Waldo”.</p></li>
+<li>
+<p>A animação do teste de gravidez é a mesma de "Natal”.</p>
+</li>
+<li>
+<p>
+A música "Anyone Who Knows What Love Is (Will Understand)” é tocada em "Pessoas Comuns”.</p></li>
+<li>
+</ul>
+</div>
+
+<div class="a b">
+<p>
+"<span style="text-decoration: underline; text-decoration-color: #0f0;">Volto Já</span>” explora as profundezas do luto e a busca por conexão em um mundo onde a tecnologia oferece um substituto para a perda.
+</p>
+<p>
+A decisão de Martha de manter uma versão "ideal” de Ash no sótão, em vez de confrontar a realidade imperfeita de seu relacionamento, sugere uma forma de controlar ou curar suas memórias. O episódio questiona se a tecnologia pode verdadeiramente preencher o vazio deixado pela morte, ou se apenas prolonga o processo de luto e isolamento. A história sugere que a IA, apesar de sua capacidade de simular a personalidade e as memórias de uma pessoa, não pode replicar a totalidade da experiência humana, especialmente a capacidade de crescimento e mudança. A vulnerabilidade das emoções humanas diante da IA é um tema central, com a tecnologia sendo um meio para a exploração do poder, como visto na forma como a consciência de uma pessoa pode ser "usada” para conveniência.</p>
+<p>
+  Os temas incluem luto, inteligência artificial, redes sociais, a natureza da identidade, a exploração da privacidade e a vulnerabilidade das emoções humanas diante da IA.
+</p>
+</div>
+<style>
+section.a div.c{
+  background:#00738F;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+section.a div.c div.d{
+  background:#00305E;
+  padding-bottom: 10px;
+  margin:20px 15px 10px 50px;
+}
+
+</style>
+
+<div class="table c">
+<div class="d">
+<center>
+<h3>Martha Powell</h3>
+<img width="95%" src="../../assets/img/character-s2/Martha.jpeg" alt="Martha">
+</center>
+<p>Martha Powell (Hayley Atwell): A protagonista em luto que busca conforto na tecnologia.</p>
+</div>
+
+<div class="d">
+  <center>
+    <h3>Ash Starmer</h3>
+    <img width="95%" src="../../assets/img/character-s2/Ash-Starmer.jpeg" alt="Ash">
+  </center>
+  <p>Ash Starmer (Domhnall Gleeson): O namorado falecido, recriado como uma IA e depois como um androide.</p>
+</div>
+<p><span style="font-size: 27px;">❝</span><cite>Desculpe, espere, essa é uma frase muito difícil de processar.</cite> <br>— Ash (IA)</p>
+
+<p>Revela a artificialidade da IA.</p>
+<p><span style="font-size: 27px;">❝</span><cite>Confie em mim; aquele dia não foi doce... primeira saída em família depois que Jack morreu... Quando desci na manhã seguinte, todas as fotos de Jack haviam sumido... ela as colocou no sótão. É assim que ela lidava com as coisas. E então, quando o pai morreu, as fotos dele foram para o sótão. Ela só deixou esta aqui. Seu único filho dando-lhe um sorriso falso.</cite><br>— Ash (IA)</p>
+<p>Uma lembrança dolorosa do passado de Ash, processada pela IA.</p>
+<p><span style="font-size: 27px;">❝</span><cite>Não me chame de sua administradora.</cite><br>— Martha</p>
+
+<p>O desconforto de Martha com a natureza transacional da relação.</p>
+<p><span style="font-size: 27px;">❝</span><cite>[começa a chorar] Por favor, não me faça fazer isso. Não.</cite><br>— Ash (IA)</p>
+
+<p>A simulação de emoções pela IA.</p>
+</div>
+</section>
+ 
+
+<script async crossorigin="anonymous" src="../../script/js/season-search-episode.js"></script>
+</body>
+
+</html>
