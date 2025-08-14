@@ -5,6 +5,8 @@ const links = [
 { url: "../../script/season-2/white-bear.html", text: "Urso Branco" },
 { url: "../../script/season-2/be-right-back.html", text: "Volto Já" },
 { url: "../../script/season-2/white-christmas.html", text: "Natal" },
+{ url: "../../script/season-3/nosedive.html", text: "Queda Livre" }, 
+{ url: "../../script/season-3/nosedive.html", text: "Nosedive" },
 { url: "../../script/season-2/the-waldo-moment.html", text: "O Momento Waldo" }
 
     ];
