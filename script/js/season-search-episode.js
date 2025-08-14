@@ -4,6 +4,7 @@ const links = [
 { url: "../../script/season-1/the-entire-history-of-you.html", text: "Toda A Sua História" },
 { url: "../../script/season-2/white-bear.html", text: "Urso Branco" },
 { url: "../../script/season-2/be-right-back.html", text: "Volto Já" },
+{ url: "../../script/season-2/white-christmas.html", text: "Natal" },
 { url: "../../script/season-2/the-waldo-moment.html", text: "O Momento Waldo" }
 
     ];
